@@ -23,6 +23,7 @@ namespace Gestion.Controllers
         [HttpGet]
         public IList<User> Get()
         {
+            //Prueba de gitHub
             return (this.myDbContext.Users.ToList());
         }
     }
